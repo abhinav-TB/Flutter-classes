@@ -16,17 +16,8 @@ class Home extends StatelessWidget {
       ),
 
       body:Center(
-          child: Text(
-            'hello ninjas',
-            style: TextStyle(
-              fontSize: 20.0,
-              fontWeight:FontWeight.bold,
-              letterSpacing: 2.0,
-              color:Colors.grey[600],
-
-
-
-            ),
+          child: Image(
+            image:AssetImage('assets/space3.jpeg')
           )
 
       ),
